@@ -56,9 +56,9 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Devang</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')} }>
                 <Text style={{color: 'white'}}>
-                  Chat
+                  Chat 
                 </Text>
               </TouchableOpacity>
             </View>
@@ -73,7 +73,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop LTD Food</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}} >
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -90,7 +90,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}>
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -108,7 +108,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}>
+              <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen_02')}}>
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -126,7 +126,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 12}}>Shop Minh Long Book</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}>
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -144,7 +144,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 12}}>Shop Minh Long Book</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}> 
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -161,7 +161,7 @@ export default function Screen_01({ navigation }) {
               <br></br>
               <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
             </Text>
-            <TouchableOpacity style={styles.btnInProduct}>
+            <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}> 
               <Text style={{color: 'white'}}>
                 Chat
               </Text>
@@ -179,7 +179,7 @@ export default function Screen_01({ navigation }) {
               <br></br>
               <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
             </Text>
-            <TouchableOpacity style={styles.btnInProduct}>
+            <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen_02')}}>
               <Text style={{color: 'white'}}>
                 Chat
               </Text>
