@@ -8,19 +8,28 @@ import {
   TextInput,
 } from "react-native";
 
-export default function Screen_02({ navigation }) {
+export default function Screen02({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <View>
-          <Image
-            source={require("../assets/data_buoi6_link1/ant-design_arrow-left-outlined.png")}
-            style={{
-              width: 30,
-              height: 30,
-              marginLeft: 15,
-            }}
-          />
+          <TouchableOpacity 
+              style={{
+                width: 30,
+                height: 30,
+                marginLeft: 15,
+              }}
+              onPress={() => {navigation.navigate('Screen01')}}
+            >
+            <Image
+              source={require("../assets/data_buoi6_link1/ant-design_arrow-left-outlined.png")}
+              style={{
+                width: 30,
+                height: 30,
+                marginLeft: 15,
+              }}
+            />
+          </TouchableOpacity>
         </View>
         <View style={styles.searchBox}>
           <Image

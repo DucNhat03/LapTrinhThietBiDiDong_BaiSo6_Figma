@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 
-export default function Screen_01({ navigation }) {
+export default function Screen01({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -56,7 +56,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Devang</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')} }>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')} }>
                 <Text style={{color: 'white'}}>
                   Chat 
                 </Text>
@@ -73,7 +73,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop LTD Food</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}} >
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}} >
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -90,7 +90,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}>
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -108,7 +108,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen_02')}}>
+              <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen02')}}>
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -126,7 +126,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 12}}>Shop Minh Long Book</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}>
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}>
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -144,7 +144,7 @@ export default function Screen_01({ navigation }) {
                 <br></br>
                 <Text style={{color: 'red', fontSize: 12}}>Shop Minh Long Book</Text>
               </Text>
-              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}> 
+              <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}> 
                 <Text style={{color: 'white'}}>
                   Chat
                 </Text>
@@ -161,7 +161,7 @@ export default function Screen_01({ navigation }) {
               <br></br>
               <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
             </Text>
-            <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen_02')}}> 
+            <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}> 
               <Text style={{color: 'white'}}>
                 Chat
               </Text>
@@ -179,7 +179,7 @@ export default function Screen_01({ navigation }) {
               <br></br>
               <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
             </Text>
-            <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen_02')}}>
+            <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen02')}}>
               <Text style={{color: 'white'}}>
                 Chat
               </Text>
