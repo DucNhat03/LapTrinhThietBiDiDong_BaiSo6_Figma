@@ -2,8 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 
 export default function Screen01({ navigation }) {
-  const Br = () => <br />;
-
+  
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -55,7 +54,7 @@ export default function Screen01({ navigation }) {
               />
               <Text style={styles.desInProduct}>
                 Ca nấu lẩu mini
-                <Br />
+                <Text>{"\n"}</Text>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Devang</Text>
               </Text>
               <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')} }>
@@ -72,7 +71,7 @@ export default function Screen01({ navigation }) {
               />
               <Text style={styles.desInProduct}>
                 1KG KHÔ GÀ BƠ TỎI
-                <Br />
+                <Text>{"\n"}</Text>
                 <Text style={{color: 'red', fontSize: 14}}>Shop LTD Food</Text>
               </Text>
               <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}} >
@@ -89,7 +88,7 @@ export default function Screen01({ navigation }) {
               />
               <Text style={styles.desInProduct}>
                 Xe Cần cẩu đa năng
-                <Br />
+                <Text>{"\n"}</Text>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
               </Text>
               <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}>
@@ -107,7 +106,7 @@ export default function Screen01({ navigation }) {
               />
               <Text style={styles.desInProduct}>
                 Đò chơi dạng mô hình
-                <Br />
+                <Text>{"\n"}</Text>
                 <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
               </Text>
               <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen02')}}>
@@ -125,7 +124,7 @@ export default function Screen01({ navigation }) {
               />
               <Text style={styles.desInProduct}>
                 Lãnh đạo giản đơn
-                <Br />
+                <Text>{"\n"}</Text>
                 <Text style={{color: 'red', fontSize: 12}}>Shop Minh Long Book</Text>
               </Text>
               <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}>
@@ -143,7 +142,7 @@ export default function Screen01({ navigation }) {
               />
               <Text style={styles.desInProduct}>
                 Hiểu lòng con trẻ
-                <Br />
+                <Text>{"\n"}</Text>
                 <Text style={{color: 'red', fontSize: 12}}>Shop Minh Long Book</Text>
               </Text>
               <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}> 
@@ -160,7 +159,7 @@ export default function Screen01({ navigation }) {
             />
             <Text style={styles.desInProduct}>
               Xe Cần cẩu đa năng
-              <Br />
+              <Text>{"\n"}</Text>
               <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
             </Text>
             <TouchableOpacity style={styles.btnInProduct} onPress={() => {navigation.navigate('Screen02')}}> 
@@ -178,7 +177,7 @@ export default function Screen01({ navigation }) {
             />
             <Text style={styles.desInProduct}>
               Đò chơi dạng mô hình
-              <Br />
+              <Text>{"\n"}</Text>
               <Text style={{color: 'red', fontSize: 14}}>Shop Thế giới đồ chơi</Text>
             </Text>
             <TouchableOpacity style={styles.btnInProduct}  onPress={() => {navigation.navigate('Screen02')}}>
