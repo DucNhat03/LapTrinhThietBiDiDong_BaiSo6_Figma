@@ -61,7 +61,7 @@ export default function Screen_02({ navigation }) {
         <View style={styles.rowProdcuts}>
           <View style={styles.productItem}>
             <View>
-              <Image source={require('../assets/data_buoi6_link1/screen02/daucam 1.png')}
+              <Image source={require('../assets/data_buoi6_link1/screen02/daucam1.png')}
               style={{width: 160, height: 160, resizeMode: 'contain',marginTop: -30,}} 
               />
             </View>
@@ -79,7 +79,7 @@ export default function Screen_02({ navigation }) {
           </View>
           <View style={styles.productItem}>
             <View>
-              <Image source={require('../assets/data_buoi6_link1/screen02/dauchuyendoi 1.png')}
+              <Image source={require('../assets/data_buoi6_link1/screen02/dauchuyendoi1.png')}
               style={{width: 160, height: 160, resizeMode: 'contain', marginTop: -30,}} 
               />
             </View>
@@ -100,7 +100,7 @@ export default function Screen_02({ navigation }) {
         <View style={styles.rowProdcuts}>
           <View style={styles.productItem}>
             <View>
-              <Image source={require('../assets/data_buoi6_link1/screen02/dauchuyendoi 1.png')}
+              <Image source={require('../assets/data_buoi6_link1/screen02/dauchuyendoi1.png')}
               style={{width: 160, height: 160, resizeMode: 'contain',marginTop: -30,}} 
               />
             </View>
@@ -118,7 +118,7 @@ export default function Screen_02({ navigation }) {
           </View>
           <View style={styles.productItem}>
             <View>
-              <Image source={require('../assets/data_buoi6_link1/screen02/giacchuyen 1.png')}
+              <Image source={require('../assets/data_buoi6_link1/screen02/giacchuyen1.png')}
               style={{width: 160, height: 160, resizeMode: 'contain', marginTop: -30,}} 
               />
             </View>
@@ -139,7 +139,7 @@ export default function Screen_02({ navigation }) {
         <View style={styles.rowProdcuts}>
           <View style={styles.productItem}>
             <View>
-              <Image source={require('../assets/data_buoi6_link1/screen02/daynguon 1.png')}
+              <Image source={require('../assets/data_buoi6_link1/screen02/daynguon1.png')}
               style={{width: 160, height: 160, resizeMode: 'contain',marginTop: -30,}} 
               />
             </View>
@@ -157,7 +157,7 @@ export default function Screen_02({ navigation }) {
           </View>
           <View style={styles.productItem}>
             <View>
-              <Image source={require('../assets/data_buoi6_link1/screen02/carbusbtops2 1.png')}
+              <Image source={require('../assets/data_buoi6_link1/screen02/carbusbtops21.png')}
               style={{width: 160, height: 160, resizeMode: 'contain', marginTop: -30,}} 
               />
             </View>

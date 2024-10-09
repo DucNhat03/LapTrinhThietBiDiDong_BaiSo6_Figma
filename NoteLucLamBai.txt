@@ -1,0 +1,52 @@
+Đầu tiên, e chia giao diện làm 3 phần
+
+- header
+- body
+-  footer
+
+
+ở dưới header se co 1 phan trong chua các dòng chữ
+
+ở đây em sẽ style thẳng trước để xác định vị trí của nó
+
+-- nó đang nằm ở giữa của body
+
+-- ở đây em nhầm, không có phần footer ở đâyy
+
+--- xong giờ sang phần sản phẩm, 
+  --- mỗi sản phẩm thì cũng có 3 phần chínhh
+	+ bên trái là ảnh, ở giữa là tên và mô tả, bên phải là button Chat
+
+
+-- ý tưởng của e ở đây: products sẽ là 1 component chứa các productItem bên trong, theo chiều dọc
+-- ở đây ra được cái khung rồi, e sẽ hoàn thiện 1 cái, rồi mấy cái còn lại copy ra...
+
+-- ở đây mỗi ProductItem sẽ là 1 View, có flexDirection là row
+
+-- nó đã ra được ý tưởng, giờ e sẽ làm chi tiets cho nó
+
+-- Ở đây vì nhiều sản phẩm chỉ khác nhau chữ và hỉnh, nên e sẽ tạo style chung rồi coppyy
+
+-- Giờ được 1 sản phẩm rồi, e sẽ coppy ....
+
+-- Ok
+
+
+-- Giờ e sẽ tiếp tục với màn hình số 2, ở đây e copy lại phần header của Screen_01, 
+
+--- Xong phần header, giờ e sẽ chuyển sang phần list sản phẩm
+
+
+-- em cũng sẽ dùng view, mỗi view sẽ có 2 column, mỗi column là 1 sản phẩm
+
+-- ở trong mỗi sản phẩm sẽ có hình ảnh, tên, đánh giá và giá, em sẽ dùng flex theo column
+
+
+
+
+
+
+
+
+
+
