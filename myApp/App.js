@@ -16,8 +16,8 @@ export default function App() {
     <NavigationContainer>
       <StatusBar style="auto" />
       <Stack.Navigator initialRouteName="Screen01" screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Screen01" component={Screen_01} />
-        <Stack.Screen name="Screen02" component={Screen_02} />
+        <Stack.Screen name="Screen01" component={Screen01} />
+        <Stack.Screen name="Screen02" component={Screen02} />
       </Stack.Navigator>
     </NavigationContainer>
   );
